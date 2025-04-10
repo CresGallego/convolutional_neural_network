@@ -26,18 +26,25 @@ on the uppermost part of the code.
 
 ## TRAINING RESULTS
 
-  - The 96% accuracy was achieved at the 44th epoch. It took xxx seconds to complete the training.
+  - The 96% accuracy was achieved at the 8th epoch (more efficient than the neural network which took 44 epochs).
+  - It took only 75 seconds to complete the training (faster than 128 seconds by neural_netork).
+  - Evaluation results of the 10,000 images yield 91% (better than 88% by neural_network)
 
     ![CNN Training   Eval Results](https://github.com/user-attachments/assets/8e7edbff-ac17-4f65-b0ab-472810d21652)
 
 
 
 
-
-
 ## MAKING PREDICTIONS
 
+
   Predicting the image from test data (randomly selected from 10,000 images). Sample result.
+
+   ![CNN_Prediction](https://github.com/user-attachments/assets/f95ede1a-5edf-4eb6-8118-6790b61fcd96)
+
+
+
+  
 
 
 
