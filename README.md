@@ -2,7 +2,7 @@
 
 ## INTRODUCTION
 
-This is a convolutional neural network model and it is a supervised machine learning model. Data is from the Keras dataset fashion_mnist. Fashion MNist dataset is 70,000 images of  garments and footwear in 10 categories. The 70,000 images are labeled with numbers from 0 to 9 (0 if "Ankle Boot", 1 if "Trouser", 2 if "Pullover", etc). Separated 60,000 images are used for the training of the model and 10,000 images are set aside for testing the accuracy of the model. The model has an input and an output layer fully connected.
+A Convolutional Neural Network (CNN) is a type of artificial neural network, particularly well-suited for processing images and other grid-like data, by using "convolutional layers" to extract features and patterns. This is a convolutional neural network model and it is a supervised machine learning model. Data is from the Keras dataset fashion_mnist. Fashion MNist dataset is 70,000 images of  garments and footwear in 10 categories. The 70,000 images are labeled with numbers from 0 to 9 (0 if "Ankle Boot", 1 if "Trouser", 2 if "Pullover", etc). Separated 60,000 images are used for the training of the model and 10,000 images are set aside for testing the accuracy of the model. The model has an input and an output layer fully connected.
 
 
 ## RESOURCES
