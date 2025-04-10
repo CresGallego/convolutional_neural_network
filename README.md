@@ -28,6 +28,9 @@ on the uppermost part of the code.
 
   - The 96% accuracy was achieved at the 44th epoch. It took xxx seconds to complete the training.
 
+    ![CNN Training   Eval Results](https://github.com/user-attachments/assets/8e7edbff-ac17-4f65-b0ab-472810d21652)
+
+
 
 
 
