@@ -49,7 +49,10 @@ on the uppermost part of the code.
 
 ---  
 
-   ![CNN_Prediction](https://github.com/user-attachments/assets/f95ede1a-5edf-4eb6-8118-6790b61fcd96)
+
+   ![CNN_Prediction](https://github.com/user-attachments/assets/1579ce34-2ff3-468c-9537-db2982109168)
+
+
 
 ---
 
