@@ -1,11 +1,14 @@
-# convolutional_neural_network
+# CONVOLUTIONAL NEURAL NETWORK
 
-## INTRODUCTION
+---
+
+## 1. INTRODUCTION
 
 A Convolutional Neural Network (CNN) is a type of artificial neural network, particularly well-suited for processing images and other grid-like data, by using "convolutional layers" to extract features and patterns. This is a convolutional neural network model and it is a supervised machine learning model. Data is from the Keras dataset fashion_mnist. Fashion MNist dataset is 70,000 images of  garments and footwear in 10 categories. The 70,000 images are labeled with numbers from 0 to 9 (0 if "Ankle Boot", 1 if "Trouser", 2 if "Pullover", etc). Separated 60,000 images are used for the training of the model and 10,000 images are set aside for testing the accuracy of the model. The model has an input and an output layer fully connected.
 
+---
 
-## RESOURCES
+## 2. RESOURCES
 
 This model uses the Tensorflow platform and Keras APIs. The model is built as an instance of the Keras Sequence model and Keras Dense layers. The Dense layer is designed to connect the input and output layers fully. The output layer returns an array of 10 probabilities of floating numbers from 0 to 1. Mostly, out of 10 probabilities, only one is close to one (1) while the other numbers are so small and near zero. So during the  the training, the model will see the 60,000 images. it saves the weights and biases that will be used once we run the prediction method.
 
@@ -14,8 +17,9 @@ The code is in Python in the Google Colab Notebook environment. This is cloud-ba
 You can run and test the code by clicking the Google Colab button that looks like this ![image](https://github.com/user-attachments/assets/963229eb-1638-438d-a89d-6b4f9ae64af9)
 on the uppermost part of the code. 
 
+---
 
-## TRAINING OBJECTIVES
+## 3. TRAINING OBJECTIVES
 
   - To achieve 96% accuracy
   - To determine how many iterations or epochs to reach this accuracy level
@@ -23,24 +27,31 @@ on the uppermost part of the code.
       Note: We will use a T4 (Turing) Nvidia GPU with 15 GB RAM, and a CPU with 16 GB RAM
   - To know the evaluation accuracy using the test dataset (of 10,000 images)
 
+---
 
-## TRAINING RESULTS
+## 4. TRAINING RESULTS
 
   - The 96% accuracy was achieved at the 8th epoch (more efficient than the neural network which took 44 epochs).
   - It took only 75 seconds to complete the training (faster than 128 seconds by neural_netork).
   - Evaluation results of the 10,000 images yield 91% (better than 88% by neural_network)
 
-    ![CNN Training   Eval Results](https://github.com/user-attachments/assets/8e7edbff-ac17-4f65-b0ab-472810d21652)
+--- 
+
+  ![CNN Training   Eval Results](https://github.com/user-attachments/assets/8e7edbff-ac17-4f65-b0ab-472810d21652)
+
+---
 
 
-
-
-## MAKING PREDICTIONS
+## 5. MAKING PREDICTIONS
 
 
   Predicting the image from test data (randomly selected from 10,000 images). Sample result.
 
+---  
+
    ![CNN_Prediction](https://github.com/user-attachments/assets/f95ede1a-5edf-4eb6-8118-6790b61fcd96)
+
+---
 
 
 
