@@ -50,7 +50,8 @@ on the uppermost part of the code.
 ---  
 
 
-   ![CNN_Prediction](https://github.com/user-attachments/assets/5d5e723a-c9e5-4391-becb-2fc90b72e44c)
+   ![CNN_Prediction](https://github.com/user-attachments/assets/da71d1df-878d-492a-b3b9-f5a4a8fedaed)
+
 
 
 ---
